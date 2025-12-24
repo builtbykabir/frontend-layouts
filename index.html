@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Layouts Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="nav-bar">
+            <h1 class="logo">Frontend Layouts</h1>
+            <nav>
+                <a href="#">GitHub Repo</a>
+                <a href="mailto:builtbykabir@proton.me">Contact</a>
+            </nav>
+        </div>
+
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="layout">HTML & CSS</button>
+            <button class="filter-btn" data-filter="js">JavaScript</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="gallery-grid" class="grid-container">
+            </div>
+        
+        <div id="no-results" class="no-results hidden">
+            <p>No projects found in this category yet.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>@builtbykabir</p>
+        <div class="footer-links">
+            <a href="https://github.com/builtbykabir" target="_blank">GitHub</a>
+            <span>|</span>
+            <a href="mailto:builtbykabir@proton.me">Contact</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
