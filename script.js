@@ -12,7 +12,19 @@ const projects = [
         category: "layout",
         links: {
             view: "./stats-preview-card/index.html",
-            code: "#"
+            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/stats-preview-card"
+        }
+    },
+    {
+        id: 2,
+        title: "Product Card Component",
+        description: "A responsive product card using Flexbox.",
+        image: "./product-preview-card/preview.jpg",
+        tags: ["html", "css"],
+        category: "layout",
+        links: {
+            view: "./product-preview-card/index.html",
+            code: "https://github.com/builtbykabir/frontend-layouts/tree/main/product-preview-card"
         }
     }
 ];

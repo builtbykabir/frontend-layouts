@@ -7,6 +7,6 @@ Each layout focuses on improving my understanding of structure, styling, respons
 I’ll keep adding more layouts here as I create them:
 
 - [Stats Preview Card](https://builtbykabir.github.io/frontend-layouts/stats-preview-card/index.html)
-- [Layout 2](#) — Coming soon
+- [Product Preview Card](https://builtbykabir.github.io/frontend-layouts/product-preview-card/index.html)
 
 Stay tuned 🙂
